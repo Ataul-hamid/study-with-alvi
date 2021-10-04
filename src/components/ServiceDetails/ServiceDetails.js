@@ -6,7 +6,7 @@ const ServiceDetails = (props) => {
 
     return (
         <Col>
-            <Card className="w-50  ms-5 ">
+            <Card className="w-50  ms-5  border-secondary rounded-lg">
                 <Card.Img className=" h-75 " variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>Course Name: {name}</Card.Title>

@@ -30,7 +30,7 @@ const About = () => {
                     <p className="text-white">Smart University is devoted to excellence in teaching, learning, and research, and to developing leaders in many disciplines who make a difference Accepts applications from prospective Note that the tours are booked well in advance and only a certain difference to the community. number of parents can be accommodated on each tour on first come first serve basis. Also it should be noted that the tour does not guarantee that the child will be accepted. Accepts applications from prospective parents Judged throughout the year and those interested are encouraged to contact the school by way of telephone or e-mail by using the contact form to get information difference to the community we serve and that provides.</p>
                 </Col>
                 <Col>
-                    <strong>As Principal I wish you a very warm welcome to Our School! We are at the heart of the London community and in 2010 we have succeeded in providing local families an excellent education delivered.
+                    <strong className="text-white">As Principal I wish you a very warm welcome to Our School! We are at the heart of the London community and in 2010 we have succeeded in providing local families an excellent education delivered.
 </strong>
                 </Col>
             </Row>
