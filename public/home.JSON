@@ -2,25 +2,25 @@
     {
         "key": 101,
         "name": "C programing Tutorial",
-        "price": 60000,
+        "price": 100,
         "img": "https://mk0setscholarsn9sko6.kinstacdn.com/wp-content/uploads/2020/07/C-Programming.jpg"
     },
     {
         "key": 102,
         "name": "C++ Programing Tutorial",
-        "price": 500000,
+        "price": 200,
         "img": "https://www.startertutorials.com/blog/wp-content/uploads/2016/09/C_Plus_Plus_Progrramming_Language.jpg"
     },
     {
         "key": 103,
         "name": "Java Programing Tutorial",
-        "price": 400000,
+        "price": 300,
         "img": "https://thumbs.dreamstime.com/b/java-programming-word-cloud-hand-sphere-concept-white-background-127724638.jpg"
     },
     {
         "key": 104,
         "name": " Python Programing Tutorial",
-        "price": 6300000,
+        "price": 400,
         "img": "https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/06/Python-Programming-Edureka.png"
     }
 ]

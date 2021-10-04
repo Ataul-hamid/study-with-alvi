@@ -3,6 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 import './About.css'
 
 const About = () => {
+    //About Us //
     return (
         <div className="about">
             <br />
@@ -13,6 +14,8 @@ const About = () => {
             <br />
             <br />
             <br />
+
+
             <Row>
                 <Col className="text-white"> <ul><li>History</li>
                     <li>Administration</li>

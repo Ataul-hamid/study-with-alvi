@@ -13,8 +13,10 @@ const Services = () => {
             .then(data => setLanguages(data));
 
     }, [])
+
     return (
         <div>
+
             <h1 className="text-center text-success"><u>Our Services</u></h1>
             <br />
 
@@ -28,6 +30,8 @@ const Services = () => {
 
                 </Row>
             }
+            <br />
+            <br />
         </div>
     );
 };
