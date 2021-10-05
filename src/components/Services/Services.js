@@ -17,18 +17,21 @@ const Services = () => {
     return (
         <div className="services">
 
-            <h1 className="text-center text-success"><u>Our Services</u></h1>
+            <h1 className="text-white text-success bg-warning">Our Services</h1>
+            <p>Consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
             <br />
 
 
             {
 
-                <Row xs={1} md={2} className="g-4">
-                    {
-                        languages.map(language => <ServiceDetails language={language}></ServiceDetails>)
-                    }
+                <div className="shadow-sm p-3 mb-5 bg-white rounded">
+                    <Row className="services " xs={1} md={2} lg={3} className="g-4">
+                        {
+                            languages.map(language => <ServiceDetails language={language}></ServiceDetails>)
+                        }
 
-                </Row>
+                    </Row>
+                </div>
             }
             <br />
             <br />
@@ -46,8 +49,8 @@ const Services = () => {
                     </Col>
                     <Col>
 
-                        <h2 className="text-warning mt-5">Learn at your own pace</h2>
-                        <p className="text-success">Programs are available in fall, spring, and summer semesters. Many fall and spring programs offer similar shorter programs in the summer, and some may be combined for a full academic year.</p>
+                        <h2 className="text-warning mt-5 ">Learn at your own pace</h2>
+                        <p className="text-success me-5">Programs are available in fall, spring, and summer semesters. Many fall and spring programs offer similar shorter programs in the summer, and some may be combined for a full academic year.</p>
                     </Col>
                 </Row>
             </div>
