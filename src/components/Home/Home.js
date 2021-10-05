@@ -38,7 +38,7 @@ const Home = () => {
 
             {
 
-                <Row xs={1} md={2} className="g-4">
+                <Row xs={1} md={2} className="g-5 ms-5 px-5 py-5">
                     {
                         Languages.map(language => <HomeDetail language={language}></HomeDetail>)
                     }
@@ -73,7 +73,19 @@ const Home = () => {
                 </Col>
             </Row>
             <br />
+            <Row>
+                <Col>
+                    <img src="https://ivy-school.thimpress.com/demo-3/wp-content/uploads/sites/5/2018/10/bg-22-1.jpg" alt="" />
+                </Col>
+                <Col>
+                    <p className="mt-5 bg-secondary p-5 m-5">
+                        I really appreciate the awesome job this team does! In friendly tone and highly professional skills they accomplish to solve any problem I face in order to customise my site. I feel I have a great team by my side. Thank you team. Thank you Huyen Anh! Keep up the excellant work. You can rely to them. The theme is the best and with their help my company's first impression to my clients is the best. <br /> <br />
+                        <h5 className="text-white">Ataul Hamid Alvi</h5>
+                        <p className="text-white">Founder: Study With Alvi</p>
+                    </p>
 
+                </Col>
+            </Row>
             <div class="content-text bg-warning m-5 p-5 mt-5 mb-5 rounded">
 
                 <Row>
@@ -87,11 +99,13 @@ const Home = () => {
                             GET STARTED </a>
                         <a class="btn-sign-up" href="#" title="SIGN UP">
                             SIGN UP </a> */}
-                        <Button >GET STARTED</Button> &nbsp;
+                        <Button className="bg-light text-black">GET STARTED</Button> &nbsp;
                         <Button>SIGN UP</Button>
                     </Col>
                 </Row>
+
             </div>
+
 
 
         </div>

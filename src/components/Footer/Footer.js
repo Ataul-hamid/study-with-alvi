@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <div className="bg-primary text-white">
+        <div className="bg-secondary text-white mt-5 p-5">
             <Row>
                 <Col>
                     <br />
@@ -38,7 +38,7 @@ const Footer = () => {
                 </Col>
 
             </Row>
-            <p className="text-white">Made By: Ataul Hamid Alvi</p>
+            <p className="text-white mt-5">Made By: Ataul Hamid Alvi</p>
         </div>
     );
 };
