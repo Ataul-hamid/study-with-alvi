@@ -3,6 +3,7 @@ import { Button, Card, CardGroup, Col, Row } from 'react-bootstrap';
 import HomeDetail from '../HomeDetail/HomeDetail';
 import './Home.css'
 
+
 const Home = () => {
     const [Languages, setLanguages] = useState([]);
     useEffect(() => {
@@ -16,10 +17,10 @@ const Home = () => {
     return (
 
 
-        <div >
+        <div  >
 
 
-            <Row className="bg-light banner">
+            <Row className="bg-light ">
                 <Col>
                     <br />
                     <h1 className="text-center text-success mt-5">Free Programing <br />Courses Tutorial</h1>
@@ -29,7 +30,7 @@ const Home = () => {
                 <Col> <img src="https://ivy-school.thimpress.com/demo-3/wp-content/uploads/sites/5/2018/12/img-slider-03.png" alt="" /></Col>
 
             </Row>
-            <div>
+            <div className="banner">
                 <h1 className="text-warning">What do you want to learn today</h1>
             </div>
             <br />
@@ -71,6 +72,27 @@ const Home = () => {
                     <img src="https://ivy-school.thimpress.com/demo-3/wp-content/uploads/sites/5/2018/10/bg-18.jpg" alt="" />
                 </Col>
             </Row>
+            <br />
+
+            <div class="content-text bg-warning m-5 p-5 mt-5 mb-5 rounded">
+
+                <Row>
+                    <Col>
+                        <h3 class="title" style={{ fontSize: '22px' }}>
+                            Start mastering your courses! Try now for free </h3>
+
+                    </Col>
+                    <Col>
+                        {/* <a class="btn-get-started" href="#" title="GET STARTED">
+                            GET STARTED </a>
+                        <a class="btn-sign-up" href="#" title="SIGN UP">
+                            SIGN UP </a> */}
+                        <Button >GET STARTED</Button> &nbsp;
+                        <Button>SIGN UP</Button>
+                    </Col>
+                </Row>
+            </div>
+
 
         </div>
 

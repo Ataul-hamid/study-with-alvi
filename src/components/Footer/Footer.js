@@ -3,9 +3,10 @@ import { Col, Row } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <div className="bg-warning">
+        <div className="bg-primary text-white">
             <Row>
                 <Col>
+                    <br />
                     <br />
                     <br />
                 Study With Alvi</Col>
@@ -31,12 +32,13 @@ const Footer = () => {
 
                 </Col>
                 <Col>
-                    <h1>Subscribe</h1>
+                    <h1 className="text-white">Subscribe</h1>
                     <input placeholder="Enter your email" type="text" name="" id="" />
-                    <button className="bg-danger text-light">Subscribe</button>
+                    <button className="bg-success text-light">Subscribe</button>
                 </Col>
 
             </Row>
+            <p className="text-white">Made By: Ataul Hamid Alvi</p>
         </div>
     );
 };

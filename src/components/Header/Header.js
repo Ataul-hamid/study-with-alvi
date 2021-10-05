@@ -15,7 +15,7 @@ const Header = () => {
 
     }
     return (
-        <div>
+        <div >
 
 
             <nav className="text-primary text-decoration-none mb-5 header-style">
